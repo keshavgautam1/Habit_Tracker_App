@@ -23,9 +23,9 @@ const HabitListItem = (props) => {
   return (
     // container
     <div
-      className="w-full h-12 bg-[#BEADFA] font-semibold my-1 
+      className="w-full h-12 bg-[#9679ff] font-semibold my-1 
                         rounded p-2 flex justify-between items-center cursor-pointer 
-                        hover:bg-[#A084E8]"
+                        hover:bg-[#4b6af5]"
       onClick={handleClick}
     >
       {/* showing name of habit and number of days on which the habit is completed in a week */}

@@ -116,7 +116,7 @@ const AddHabit = () => {
           {/* button to submit the form / add habit  */}
           <button
             type="submit"
-            className="bg-[#9b80fc] 
+            className="bg-[#534586] 
                                                 hover:bg-indigo-500 rounded 
                                                 shadow-md p-1 mt-2 text-white 
                                                 font-medium float-right"

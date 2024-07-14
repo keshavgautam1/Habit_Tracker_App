@@ -16,7 +16,7 @@ const Quote = () => {
     // container
     <div
       className="w-full lg:w-4/5 h-fit mt-4 mb-2 shadow-md rounded
-                        bg-indigo-400 text-white p-2"
+                        bg-amber-400 text-white p-2"
     >
       {/* heading on left side of section */}
       <h1 className="text-sm">Quote of the day:</h1>
@@ -27,7 +27,7 @@ const Quote = () => {
       </div>
 
       {/* author name at the right side of section */}
-      <h1 className="float-right font-semibold text-black">
+      <h1 className="float-right font-semibold text-slate-600">
         by: {quote.author}
       </h1>
     </div>

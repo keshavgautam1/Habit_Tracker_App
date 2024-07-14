@@ -23,9 +23,9 @@ const ListItem = (props) => {
   return (
     // container
     <div
-      className="w-full h-11 bg-[#BEADFA] font-semibold my-1 
+      className="w-full h-11 bg-[#fbd45f] font-semibold my-1 
                         rounded p-1 flex justify-between items-center cursor-pointer 
-                        hover:bg-[#A084E8]"
+                        hover:bg-[#e8ac2b]"
       onClick={handleClick}
     >
       {/* showing name of habit */}

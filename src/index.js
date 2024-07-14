@@ -2,8 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 // style file
-import "../src/index.css";
-
+import "./index.css";
 // app component
 import App from "./App";
 // redux store provider

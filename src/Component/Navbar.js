@@ -41,12 +41,12 @@ const Navbar = () => {
           <div className="hidden w-fit h-full sm:flex items-center">
             {/* list of links */}
             <ul>
-              <li className="inline-block mx-2 text-slate-400">
+              <li className="inline-block mx-2 text-slate-600">
                 {/* link for home page */}
                 {/* if link active change the text color */}
                 <NavLink
                   style={({ isActive }) =>
-                    isActive ? { color: "rgb(129 140 248)" } : undefined
+                    isActive ? { color: "rgb(154, 163, 249)" } : undefined
                   }
                   to="/"
                 >
@@ -54,12 +54,12 @@ const Navbar = () => {
                 </NavLink>
               </li>
 
-              <li className="inline-block mx-2 text-slate-400">
+              <li className="inline-block mx-2 text-slate-600">
                 {/* link for detailsPage (for showing user's habit and their status)  */}
                 {/* if link active change the color */}
                 <NavLink
                   style={({ isActive }) =>
-                    isActive ? { color: "rgb(129 140 248)" } : undefined
+                    isActive ? { color: "rgb(154, 163, 249)" } : undefined
                   }
                   to="/detailspage"
                 >
